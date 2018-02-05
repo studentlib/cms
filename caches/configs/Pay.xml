@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ID 名称 付费金额 充值类型 获得元宝 首次购买额外获得 常规购买额外获得 买断天数 上线返还 获得的VIP经验值 道具ID 充值金额名字 关联未完成任务 关联完成任务 
+int string int int int int int int int int string string int int 
+-->
+<Pay>
+  <row ID="100001" Des="IOS 6元" Paynull="6" Type="1" Gain="60" FirstGain="0" GiveGain="0" BuyDay="0" Return="0" VipExp="50" ItemID="sbdsg_6" NameID="PayName110001" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="100002" Des="IOS 30元" Paynull="30" Type="1" Gain="300" FirstGain="300" GiveGain="15" BuyDay="0" Return="0" VipExp="100" ItemID="sbdsg_30" NameID="PayName110002" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="100003" Des="IOS 98元" Paynull="98" Type="1" Gain="980" FirstGain="980" GiveGain="80" BuyDay="0" Return="0" VipExp="300" ItemID="sbdsg_98" NameID="PayName110003" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="100004" Des="IOS 198元" Paynull="198" Type="1" Gain="1980" FirstGain="1980" GiveGain="240" BuyDay="0" Return="0" VipExp="500" ItemID="sbdsg_198" NameID="PayName110004" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="100005" Des="IOS 328元" Paynull="328" Type="1" Gain="3280" FirstGain="3280" GiveGain="600" BuyDay="0" Return="0" VipExp="1000" ItemID="sbdsg_328" NameID="PayName110005" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="100006" Des="IOS 648元" Paynull="648" Type="1" Gain="6480" FirstGain="6480" GiveGain="1620" BuyDay="0" Return="0" VipExp="2000" ItemID="sbdsg_648" NameID="PayName110006" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="100009" Des="IOS 25月卡" Paynull="25" Type="2" Gain="300" FirstGain="0" GiveGain="0" BuyDay="30" Return="120" VipExp="300" ItemID="sbdsg_yueka" NameID="PayName110007" ConnectTask="401001" ConnectTaskClear="401002" />
+  <row ID="100010" Des="IOS 50永久" Paynull="50" Type="3" Gain="600" FirstGain="0" GiveGain="0" BuyDay="90000" Return="100" VipExp="600" ItemID="sbdsg_zzk" NameID="PayName110008" ConnectTask="402001" ConnectTaskClear="402002" />
+  <row ID="200001" Des="越狱 5元" Paynull="5" Type="1" Gain="50" FirstGain="0" GiveGain="0" BuyDay="0" Return="0" VipExp="50" ItemID="sbdsg_5" NameID="PayName120001" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="200002" Des="越狱 10元" Paynull="10" Type="1" Gain="100" FirstGain="100" GiveGain="0" BuyDay="0" Return="0" VipExp="100" ItemID="sbdsg_10" NameID="PayName120002" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="200003" Des="越狱 30元" Paynull="30" Type="1" Gain="300" FirstGain="300" GiveGain="15" BuyDay="0" Return="0" VipExp="300" ItemID="sbdsg_30" NameID="PayName120003" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="200004" Des="越狱 50元" Paynull="50" Type="1" Gain="500" FirstGain="500" GiveGain="30" BuyDay="0" Return="0" VipExp="500" ItemID="sbdsg_50" NameID="PayName120004" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="200005" Des="越狱 100元" Paynull="100" Type="1" Gain="1000" FirstGain="1000" GiveGain="80" BuyDay="0" Return="0" VipExp="1000" ItemID="sbdsg_100" NameID="PayName120005" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="200006" Des="越狱 200元" Paynull="200" Type="1" Gain="2000" FirstGain="2000" GiveGain="240" BuyDay="0" Return="0" VipExp="2000" ItemID="sbdsg_200" NameID="PayName120006" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="200007" Des="越狱 500元" Paynull="500" Type="1" Gain="5000" FirstGain="5000" GiveGain="1000" BuyDay="0" Return="0" VipExp="5000" ItemID="sbdsg_500" NameID="PayName120007" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="200008" Des="越狱 1000元" Paynull="1000" Type="1" Gain="10000" FirstGain="10000" GiveGain="2500" BuyDay="0" Return="0" VipExp="10000" ItemID="sbdsg_1000" NameID="PayName120008" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="200009" Des="越狱 25月卡" Paynull="25" Type="2" Gain="300" FirstGain="0" GiveGain="0" BuyDay="30" Return="120" VipExp="300" ItemID="sbdsg_yueka" NameID="PayName120009" ConnectTask="401001" ConnectTaskClear="401002" />
+  <row ID="200010" Des="越狱 50永久" Paynull="50" Type="3" Gain="600" FirstGain="0" GiveGain="0" BuyDay="90000" Return="100" VipExp="600" ItemID="sbdsg_zzk" NameID="PayName120010" ConnectTask="402001" ConnectTaskClear="402002" />
+  <row ID="300001" Des="安卓 5元" Paynull="5" Type="1" Gain="50" FirstGain="0" GiveGain="0" BuyDay="0" Return="0" VipExp="50" ItemID="sbdsg_5" NameID="PayName120001" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="300002" Des="安卓 10元" Paynull="10" Type="1" Gain="100" FirstGain="100" GiveGain="0" BuyDay="0" Return="0" VipExp="100" ItemID="sbdsg_10" NameID="PayName120002" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="300003" Des="安卓 30元" Paynull="30" Type="1" Gain="300" FirstGain="300" GiveGain="15" BuyDay="0" Return="0" VipExp="300" ItemID="sbdsg_30" NameID="PayName120003" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="300004" Des="安卓 50元" Paynull="50" Type="1" Gain="500" FirstGain="500" GiveGain="30" BuyDay="0" Return="0" VipExp="500" ItemID="sbdsg_50" NameID="PayName120004" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="300005" Des="安卓 100元" Paynull="100" Type="1" Gain="1000" FirstGain="1000" GiveGain="80" BuyDay="0" Return="0" VipExp="1000" ItemID="sbdsg_100" NameID="PayName120005" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="300006" Des="安卓 200元" Paynull="200" Type="1" Gain="2000" FirstGain="2000" GiveGain="240" BuyDay="0" Return="0" VipExp="2000" ItemID="sbdsg_200" NameID="PayName120006" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="300007" Des="安卓 500元" Paynull="500" Type="1" Gain="5000" FirstGain="5000" GiveGain="1000" BuyDay="0" Return="0" VipExp="5000" ItemID="sbdsg_500" NameID="PayName120007" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="300008" Des="安卓 1000元" Paynull="1000" Type="1" Gain="10000" FirstGain="10000" GiveGain="2500" BuyDay="0" Return="0" VipExp="10000" ItemID="sbdsg_1000" NameID="PayName120008" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="300009" Des="安卓 25月卡" Paynull="25" Type="2" Gain="300" FirstGain="0" GiveGain="0" BuyDay="30" Return="120" VipExp="300" ItemID="sbdsg_yueka" NameID="PayName120009" ConnectTask="401001" ConnectTaskClear="401002" />
+  <row ID="300010" Des="安卓 50永久" Paynull="50" Type="3" Gain="600" FirstGain="0" GiveGain="0" BuyDay="90000" Return="100" VipExp="600" ItemID="sbdsg_zzk" NameID="PayName120010" ConnectTask="402001" ConnectTaskClear="402002" />
+  <row ID="400001" Des="天机 5元" Paynull="5" Type="1" Gain="50" FirstGain="0" GiveGain="0" BuyDay="0" Return="0" VipExp="50" ItemID="1" NameID="PayName120001" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="400002" Des="天机 10元" Paynull="10" Type="1" Gain="100" FirstGain="100" GiveGain="0" BuyDay="0" Return="0" VipExp="100" ItemID="2" NameID="PayName120002" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="400003" Des="天机 30元" Paynull="30" Type="1" Gain="300" FirstGain="300" GiveGain="15" BuyDay="0" Return="0" VipExp="300" ItemID="3" NameID="PayName120003" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="400004" Des="天机 50元" Paynull="50" Type="1" Gain="500" FirstGain="500" GiveGain="30" BuyDay="0" Return="0" VipExp="500" ItemID="4" NameID="PayName120004" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="400005" Des="天机 100元" Paynull="100" Type="1" Gain="1000" FirstGain="1000" GiveGain="80" BuyDay="0" Return="0" VipExp="1000" ItemID="5" NameID="PayName120005" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="400006" Des="天机 200元" Paynull="200" Type="1" Gain="2000" FirstGain="2000" GiveGain="240" BuyDay="0" Return="0" VipExp="2000" ItemID="6" NameID="PayName120006" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="400007" Des="天机 500元" Paynull="500" Type="1" Gain="5000" FirstGain="5000" GiveGain="1000" BuyDay="0" Return="0" VipExp="5000" ItemID="7" NameID="PayName120007" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="400008" Des="天机 1000元" Paynull="1000" Type="1" Gain="10000" FirstGain="10000" GiveGain="2500" BuyDay="0" Return="0" VipExp="10000" ItemID="8" NameID="PayName120008" ConnectTask="0" ConnectTaskClear="0" />
+  <row ID="400009" Des="天机 25月卡" Paynull="25" Type="2" Gain="300" FirstGain="0" GiveGain="0" BuyDay="30" Return="120" VipExp="300" ItemID="9" NameID="PayName120009" ConnectTask="401001" ConnectTaskClear="401002" />
+  <row ID="400010" Des="天机 50永久" Paynull="50" Type="3" Gain="600" FirstGain="0" GiveGain="0" BuyDay="90000" Return="100" VipExp="600" ItemID="10" NameID="PayName120010" ConnectTask="402001" ConnectTaskClear="402002" />
+</Pay>

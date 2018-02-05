@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ID Key 值 注释 
+int string string string 
+-->
+<ASevenDayBase>
+  <row ID="1" Key="OpenLv" Value="30" Des="开放等级模板" />
+  <row ID="2" Key="ThousandsAward" Value="40000206:500,81100102:5,70000007:2,40000735:2000" Des="一掷千金奖励" />
+  <row ID="3" Key="ThousandsPrice" Value="30000" Des="一掷千金充值元宝数" />
+  <row ID="4" Key="ScoreItemId" Value="40000735" Des="积分道具" />
+</ASevenDayBase>

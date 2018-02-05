@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+邮件流水ID 邮件标题 邮件内容 对应邮件ID 
+int String String int 
+-->
+<EmailGM>
+  <row ID="1" Titile="TitleMaintainReward" Content="ContentMaintainReward" EMailID="101" />
+  <row ID="2" Titile="TitleMergeReward" Content="ContentMergeReward" EMailID="102" />
+  <row ID="3" Titile="TitleEmMaintainReward" Content="ContentEmMaintainReward" EMailID="103" />
+  <row ID="4" Titile="TitlePromAbnormalReward" Content="ContentPromAbnormalReward" EMailID="104" />
+</EmailGM>

@@ -1,0 +1,461 @@
+@CHARSET "UTF-8";
+div.__01 {
+    position: absolute;
+    left: 99px;
+    top: 0px;
+    width: 1368px;
+    height: 1279px;
+}
+
+div.active {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:245px;
+    height:58px;
+}
+
+div.active002 {
+    position:absolute;
+    left:245px;
+    top:0px;
+    width:1123px;
+    height:90px;
+}
+
+div.active003 {
+    position:absolute;
+    left:0px;
+    top:58px;
+    width:245px;
+    height:88px;
+}
+
+div.active004 {
+    position:absolute;
+    left:245px;
+    top:90px;
+    width:37px;
+    height:1189px;
+}
+
+div.active005 {
+    position:absolute;
+    left:282px;
+    top:90px;
+    width:18px;
+    height:19px;
+}
+
+div.active006 {
+    position:absolute;
+    left:300px;
+    top:90px;
+    width:77px;
+    height:27px;
+}
+
+div.active007 {
+    position:absolute;
+    left:377px;
+    top:90px;
+    width:17px;
+    height:19px;
+}
+
+div.active008 {
+    position:absolute;
+    left:394px;
+    top:90px;
+    width:974px;
+    height:27px;
+}
+
+div.active009 {
+    position:absolute;
+    left:282px;
+    top:109px;
+    width:18px;
+    height:8px;
+}
+
+div.active010 {
+    position:absolute;
+    left:377px;
+    top:109px;
+    width:17px;
+    height:8px;
+}
+
+div.active011 {
+    position: absolute;
+    left: 288px;
+    top: 115px;
+    width: 425px;
+    height: 178px;
+}
+
+div.active012 {
+    position:absolute;
+    left:684px;
+    top:117px;
+    width:684px;
+    height:244px;
+}
+
+div.active013 {
+    position:absolute;
+    left:0px;
+    top:146px;
+    width:245px;
+    height:1133px;
+}
+
+div.active014 {
+    position:absolute;
+    left:282px;
+    top:295px;
+    width:402px;
+    height:66px;
+}
+
+div.active015 {
+    position:absolute;
+    left:282px;
+    top:361px;
+    width:102px;
+    height:5px;
+}
+
+div.active016 {
+    position: absolute;
+    left: 384px;
+    top: 360px;
+    width: 150px;
+    height: 25px;
+}
+
+div.active017 {
+    position:absolute;
+    left:534px;
+    top:361px;
+    width:31px;
+    height:141px;
+}
+
+div.active018 {
+    position: absolute;
+    left: 564px;
+    top: 360px;
+    width: 159px;
+    height: 25px;
+}
+
+div.active019 {
+    position:absolute;
+    left:724px;
+    top:361px;
+    width:644px;
+    height:432px;
+}
+
+div.active020 {
+    position:absolute;
+    left:282px;
+    top:366px;
+    width:18px;
+    height:15px;
+}
+
+div.active021 {
+    position:absolute;
+    left:300px;
+    top:366px;
+    width:84px;
+    height:136px;
+}
+
+div.active022 {
+    position:absolute;
+    left:282px;
+    top:381px;
+    width:18px;
+    height:17px;
+}
+
+div.active023 {
+    position:absolute;
+    left:384px;
+    top:386px;
+    width:150px;
+    height:7px;
+}
+
+div.active024 {
+    position:absolute;
+    left:565px;
+    top:386px;
+    width:159px;
+    height:7px;
+}
+
+div.active025 {
+    position: absolute;
+    left: 384px;
+    top: 393px;
+    width: 150px;
+    height: 26px;
+}
+
+div.active026 {
+    position: absolute;
+    left: 564px;
+    top: 393px;
+    width: 159px;
+    height: 26px;
+}
+div.active054 {
+    position: absolute;
+    left: 764px;
+    top: 360px;
+    width: 250px;
+    height: 26px;
+}
+
+div.active055 {
+    position: absolute;
+    left: 994px;
+    top: 360px;
+    width: 250px;
+    height: 26px;
+}
+div.active056 {
+    position: absolute;
+    left: 764px;
+    top: 393px;
+    width: 280px;
+    height: 26px;
+}
+div.active057 {
+    position: absolute;
+    left: 994px;
+    top: 393px;
+    width: 250px;
+    height: 26px;
+}
+
+div.active027 {
+    position:absolute;
+    left:282px;
+    top:398px;
+    width:18px;
+    height:15px;
+}
+
+div.active028 {
+    position:absolute;
+    left:282px;
+    top:413px;
+    width:18px;
+    height:412px;
+}
+
+div.active029 {
+    position:absolute;
+    left:384px;
+    top:419px;
+    width:150px;
+    height:83px;
+}
+
+div.active030 {
+    position:absolute;
+    left:565px;
+    top:419px;
+    width:159px;
+    height:83px;
+}
+
+div.active031 {
+    position:absolute;
+    left:300px;
+    top:502px;
+    width:60px;
+    height:323px;
+}
+
+div.active032 {
+    position:absolute;
+    left:360px;
+    top:502px;
+    width:350px;
+    height:24px;
+}
+
+div.active033 {
+    position:absolute;
+    left:710px;
+    top:502px;
+    width:14px;
+    height:323px;
+}
+
+div.active034 {
+    position:absolute;
+    left:360px;
+    top:526px;
+    width:350px;
+    height:21px;
+}
+
+div.active035 {
+    position: absolute;
+    left: 360px;
+    top: 545px;
+    width: 350px;
+    height: 179px;
+}
+
+div.active036 {
+    position:absolute;
+    left:360px;
+    top:726px;
+    width:350px;
+    height:99px;
+}
+
+div.active037 {
+    position:absolute;
+    left:724px;
+    top:793px;
+    width:37px;
+    height:32px;
+}
+
+div.active038 {
+    position:absolute;
+    left:761px;
+    top:793px;
+    width:71px;
+    height:24px;
+}
+
+div.active039 {
+    position:absolute;
+    left:832px;
+    top:793px;
+    width:536px;
+    height:32px;
+}
+
+div.active040 {
+    position:absolute;
+    left:761px;
+    top:817px;
+    width:71px;
+    height:8px;
+}
+
+div.active041 {
+    position: absolute;
+    left: 288px;
+    top: 823px;
+    width: 260px;
+    height: 368px;
+}
+
+div.active042 {
+    position:absolute;
+    left:534px;
+    top:825px;
+    width:59px;
+    height:454px;
+}
+
+div.active043 {
+    position: absolute;
+    left: 590px;
+    top: 823px;
+    width: 260px;
+    height: 368px;
+}
+
+div.active044 {
+    position:absolute;
+    left:832px;
+    top:825px;
+    width:64px;
+    height:454px;
+}
+
+div.active045 {
+    position: absolute;
+    left: 896px;
+    top: 823px;
+    width: 280px;
+    height: 368px;
+}
+
+div.active046 {
+    position:absolute;
+    left:1137px;
+    top:825px;
+    width:231px;
+    height:454px;
+}
+
+div.active047 {
+    position:absolute;
+    left:282px;
+    top:1193px;
+    width:252px;
+    height:16px;
+}
+
+div.active048 {
+    position: absolute;
+    left: 594px;
+    top: 1198px;
+    width: 239px;
+    height: 86px;
+}
+
+div.active049 {
+    position:absolute;
+    left:896px;
+    top:1193px;
+    width:241px;
+    height:86px;
+}
+
+div.active050 {
+    position:absolute;
+    left:282px;
+    top:1209px;
+    width:8px;
+    height:70px;
+}
+
+div.active051 {
+    position:absolute;
+    left:290px;
+    top:1209px;
+    width:117px;
+    height:40px;
+}
+
+div.active052 {
+    position:absolute;
+    left:407px;
+    top:1209px;
+    width:127px;
+    height:70px;
+}
+
+div.active053 {
+    position:absolute;
+    left:290px;
+    top:1249px;
+    width:117px;
+    height:30px;
+}

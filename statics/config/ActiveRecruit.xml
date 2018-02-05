@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+流水Id 武将ID 备注 
+int int string 
+-->
+<ActiveRecruit>
+  <row ID="1" HeroID="10010002" Des="董卓" />
+  <row ID="2" HeroID="10010003" Des="黄盖" />
+  <row ID="3" HeroID="10010004" Des="曹仁" />
+  <row ID="4" HeroID="10010005" Des="文丑" />
+  <row ID="5" HeroID="10010007" Des="张星彩" />
+  <row ID="6" HeroID="10010009" Des="周泰" />
+  <row ID="7" HeroID="10020001" Des="关银屏" />
+  <row ID="8" HeroID="10020002" Des="马云禄" />
+  <row ID="9" HeroID="10020003" Des="吕蒙" />
+  <row ID="10" HeroID="10020004" Des="赵云" />
+  <row ID="11" HeroID="10020009" Des="徐晃" />
+  <row ID="12" HeroID="10020010" Des="华雄" />
+  <row ID="13" HeroID="10020012" Des="颜良" />
+  <row ID="14" HeroID="10020016" Des="关羽" />
+  <row ID="15" HeroID="10020017" Des="夏侯惇" />
+  <row ID="16" HeroID="10020029" Des="袁绍" />
+  <row ID="17" HeroID="10020030" Des="孙尚香" />
+  <row ID="18" HeroID="10020031" Des="黄忠" />
+  <row ID="19" HeroID="10020033" Des="夏侯渊" />
+  <row ID="20" HeroID="10020035" Des="许褚" />
+  <row ID="21" HeroID="10020036" Des="张飞" />
+  <row ID="22" HeroID="10030001" Des="姜维" />
+  <row ID="23" HeroID="10030002" Des="张角" />
+  <row ID="24" HeroID="10030003" Des="徐庶" />
+  <row ID="25" HeroID="10030008" Des="陆逊" />
+  <row ID="26" HeroID="10030010" Des="李儒" />
+  <row ID="27" HeroID="10030011" Des="郭嘉" />
+  <row ID="28" HeroID="10030016" Des="诸葛亮" />
+  <row ID="29" HeroID="10030017" Des="贾诩" />
+  <row ID="30" HeroID="10030018" Des="周瑜" />
+  <row ID="31" HeroID="10030019" Des="曹操" />
+  <row ID="32" HeroID="10030022" Des="董白" />
+  <row ID="33" HeroID="10030024" Des="袁术" />
+  <row ID="34" HeroID="10040001" Des="孙茹" />
+  <row ID="35" HeroID="10040002" Des="荀彧" />
+  <row ID="36" HeroID="10040005" Des="刘备" />
+  <row ID="37" HeroID="10040007" Des="小乔" />
+  <row ID="38" HeroID="10040009" Des="鲁肃" />
+</ActiveRecruit>
