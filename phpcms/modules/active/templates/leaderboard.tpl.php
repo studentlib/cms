@@ -38,18 +38,11 @@ $(document).ready(function(){
 	$('#save').click(function(){
 		var post={};
 		var content={}; 
-<<<<<<< HEAD
-		if('<?php echo time();?>'< '<?php echo $server;?>' && <?php echo $_SESSION['sid'];?>!='999'){
-			alert("活动未结束，禁止修改");
-			return;
-		}
-=======
 		var content_ti={};
 //		if('<?php echo time();?>'< '<?php echo $server;?>'){
 //			alert("活动未结束，禁止修改");
 //			return;
 //		}
->>>>>>> dea4140... 20180307
 		$("#edit :input").each(function(k,v){
 			if($(v).attr('class')=='item')
 			{
@@ -84,14 +77,6 @@ $(document).ready(function(){
 	         var count=$('#Count_'+idc[1]+'_'+idc[2]).val();
 	         var x={};
 	         x[idx]=count;
-<<<<<<< HEAD
-           content[idc[2]]['ItemReward'].push(x);
-
-		});
-	    post.sid=$('#servers').val();
-	    post.content=content;
-	    post.comment=$('#comment').val();
-=======
            	content[idc[2]]['ItemReward'].push(x);
 
 		});
@@ -108,7 +93,6 @@ $(document).ready(function(){
 	    post.content_ti=content_ti;
 	    post.comment=$('#comment').val();
 	    post.comment_ti=$('#comment_ti').val();
->>>>>>> dea4140... 20180307
 	    $.post('index.php?m=active&c=active&a=update_leaderboard',post,function(data){
 	        alert(data.msg);
 	    },'json');
@@ -164,12 +148,6 @@ foreach ($servers as $value) {
 </form>
 
 </div>
-<<<<<<< HEAD
-<div align="center">
-<form id="edit" action="">
-<fieldset>
-<legend>活动编辑</legend>
-=======
 
 <div  align="center">
 <form id="edit_lu" action="">
@@ -212,7 +190,6 @@ foreach ($xml_arr_ti as $k=>$v)
 <form id="edit" action="">
 <fieldset>
 <legend>活动奖励编辑</legend>
->>>>>>> dea4140... 20180307
 <?php 
 foreach ($xml_arr as $k=>$v)
 {
@@ -266,10 +243,7 @@ foreach ($servers as $value) {
 ?>
 </select>
 <input type="hidden" id="comment" value="<?php echo htmlspecialchars($comment);?>"/>
-<<<<<<< HEAD
-=======
 <input type="hidden" id="comment_ti" value="<?php echo htmlspecialchars($comment_ti);?>"/>
->>>>>>> dea4140... 20180307
 <input id="save" type="button" value="保存" style="width:50px;height:20px"/>
 <input id="save_all" type="button" value="同步所选服务器" style="width:120px;height:20px"/>
 </fieldset>

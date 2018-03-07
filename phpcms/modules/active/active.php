@@ -302,11 +302,7 @@ class active extends admin {
         $comment=$array['comment'];
         $xml_arr=$array['xml_arr'];
 
-<<<<<<< HEAD
-	$array_ti=$this->findXml_array('115000',$items);
-=======
 				$array_ti=$this->findXml_array('115000',$items);
->>>>>>> dea4140... 20180307
         $comment_ti=$array_ti['comment'];
         $xml_arr_ti=$array_ti['xml_arr'];
         include $this->admin_tpl('leaderboard','active');
@@ -345,11 +341,7 @@ class active extends admin {
         $server=$activeTypeTime[$_SESSION['sid']];//做活动结束时间对比匹配
         $activeTypeTime=json_encode($activeTypeTime);//做同步时间对比匹配
         $servers=$this->get_server_config();
-<<<<<<< HEAD
-        $active=$this->findXml_array('0',$items);
-=======
         $active=$this->findXml_array('120000',$items);
->>>>>>> dea4140... 20180307
         foreach($active['xml_arr'] as $k=>$v){
             if($v['ID']==$activeId){$attr=$v;break;}
         }
@@ -357,11 +349,7 @@ class active extends admin {
         $comment=$array['comment'];
         $xml_arr=$array['xml_arr'];
         $limititem=$this->__get_limit_item();
-<<<<<<< HEAD
-	//var_dump($limititem);	
-=======
 				//var_dump($limititem);	
->>>>>>> dea4140... 20180307
         include $this->admin_tpl('limitshop','active');
     }
     /*
@@ -457,11 +445,7 @@ class active extends admin {
         }
         $server=$activeTypeTime[$_SESSION['sid']];//做活动结束时间对比匹配
         $activeTypeTime=json_encode($activeTypeTime);//做同步时间对比匹配
-<<<<<<< HEAD
-        $servers=$this->get_server_config();
-=======
         $servers=$this->get_server_config();var_dump($_GET);
->>>>>>> dea4140... 20180307
         $items=array('ItemReward');//物品加数量 特殊处理
         $array=$this->findXml_array('190000',$items,$_GET['renovate']);
         $comment=$array['comment'];
@@ -1635,14 +1619,9 @@ class active extends admin {
      * $array['comment']        xml注释内容
      * $array['xml_arr']        xml转数组
      * $items                   物品加数量 特殊处理
-<<<<<<< HEAD
-     */
-    public function findXml_array($uid,$items,$templet){
-=======
      * $templet                 更新
      */
     public function findXml_array($uid,$items,$templet=0){
->>>>>>> dea4140... 20180307
         $array=array();
         $sid=isset($_SESSION['sid'])?$_SESSION['sid']+$uid:$uid;
         $_SESSION['sid']=$sid-$uid;

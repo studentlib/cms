@@ -79,10 +79,6 @@ function __autoload($class)
 }
 
 class pc_base {
-<<<<<<< HEAD
-    private $db;
-=======
->>>>>>> dea4140... 20180307
 	
 	/**
 	 * 初始化应用程序
@@ -304,8 +300,4 @@ class pc_base {
 			return $default;
 		}
 	}
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> dea4140... 20180307
