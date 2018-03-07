@@ -1,0 +1,1 @@
+document.write("<script src='statics/plug-in/jqueryEditableSelect/src/js/jquery.min.js'><\/script>");

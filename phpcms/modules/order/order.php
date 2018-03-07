@@ -329,6 +329,17 @@ class order extends admin
                 $keys = array('id', 'channel', 'serverid', 'uid', 'orderid', 'billno', 'amount', 'time', 'status', 'ts', 'product_id', 'itemid');
                 if (isset($ret['result']) && count($ret['result'])) {
                     foreach ($ret['result'] as $k => &$v) {
+<<<<<<< HEAD
+=======
+	                    	if(strtolower($ch)=="appstore"){
+	                    		$arr['account']=$v['account'];
+	                    		$arr['orderid']=$v['orderid'];
+	                    		$arr['uid']=$v['uid'];
+	                    		$this->_orders->setTable("trans_record");
+	                    		$array=$this->_orders->get_one($arr,"`transid`");
+	                    		$v['transid']=$array['transid'];
+	                    	}
+>>>>>>> dea4140... 20180307
                         foreach ($v as $k1 => &$v1) {
                             if (!in_array($k1, $keys)) {
                                 unset($v[$k1]);
@@ -341,6 +352,19 @@ class order extends admin
                 }
                 $this->_order_list->changeConnection($_POST['channel']);
                 $his_orders = $this->_order_list->select($condition, '*', 10000, 'ctime');
+<<<<<<< HEAD
+=======
+                if(strtolower($ch)=="appstore"){
+                	foreach($his_orders as $kk=>$vv ){
+                		$arr['account']=$vv['account'];
+                		$arr['orderid']=$vv['orderid'];
+                		$arr['uid']=$vv['uid'];
+                		$this->_orders->setTable("trans_record");
+                		$array=$this->_orders->get_one($arr,"`transid`");
+                		$his_orders[$kk]['transid']=$array['transid'];
+                	}
+                }
+>>>>>>> dea4140... 20180307
                 $ret['his_orders'] = $his_orders;
             } else {
                 $ret = array('ret' => 2, 'msg' => '该渠道还没有玩家充值');

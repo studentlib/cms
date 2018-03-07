@@ -142,7 +142,11 @@ $(document).ready(function(){
 <table id="res" border="2px" bordercolor="green">
 <tr id="header">
 <th>流水ID</th><th>渠道</th><th>服务器编号</th><th>角色ID</th><th>订单号</th><!--<th>平台支付流水号</th>--><th>充值金额</th><th>平台提交订单时间</th><th>购买物品ID</th><th>产品ID(APPSTORE)</th>
+<<<<<<< HEAD
 <th>发起时间</th><th>处理状态</th>
+=======
+<th>发起时间</th><th>处理状态</th><th>苹果交易号</th>
+>>>>>>> dea4140... 20180307
 </tr>
 
 </table>
@@ -151,7 +155,11 @@ $(document).ready(function(){
 <legend>历史订单</legend>
 <table id="his_res" border="2px" bordercolor="green">
 <tr id="his_header">
+<<<<<<< HEAD
 <th>订单号</th><th>账号</th><th>角色ID</th><th>金额</th><th>服务器编号</th><th>渠道</th><th>小票</th><th>物品ID</th><th>创建时间</th><th>处理时间</th>
+=======
+<th>订单号</th><th>账号</th><th>角色ID</th><th>金额</th><th>服务器编号</th><th>渠道</th><th>小票</th><th>物品ID</th><th>创建时间</th><th>处理时间</th><th>苹果交易号</th>
+>>>>>>> dea4140... 20180307
 </tr>
 
 </table>

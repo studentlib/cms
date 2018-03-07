@@ -522,7 +522,11 @@ $LANG['turntable'] = '转盘活动';
 $LANG['leaderboard'] = '神兵排行';
 $LANG['logmanager'] = '日志查询';
 $LANG['mail'] = '模板邮件';
+<<<<<<< HEAD
 $LANG['vip'] = 'vip查询';
+=======
+$LANG['vip '] = 'vip查询';
+>>>>>>> dea4140... 20180307
 $LANG['vip_rank'] = 'vip等级统计';
 $LANG['dny_mail'] = '模板邮件';
 $LANG['magicDraw'] = '神兵招募';
@@ -537,6 +541,10 @@ $LANG['ltv_find'] = 'ltv数据';
 $LANG['PaySumDay'] = '连续充值';
 $LANG['PayRank'] = '充值排行';
 $LANG['CostRank'] = '消费排行';
+<<<<<<< HEAD
+=======
+$LANG['base'] = 'base数据';
+>>>>>>> dea4140... 20180307
 $LANG['sqlOperation'] = '道具操作';
 $LANG['prop'] = '道具操作';
 $LANG['pseudo-operation'] = '虚拟操作';
@@ -545,5 +553,8 @@ $LANG['comment'] = '点赞评论';
 $LANG['sevenDayActive'] = '七日活动';
 $LANG['comment'] = '点赞评论';
 $LANG['Role Switching'] = '账号转换';
+<<<<<<< HEAD
 $LANG['base'] = 'base数据';
+=======
+>>>>>>> dea4140... 20180307
 ?>
